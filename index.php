@@ -23,12 +23,13 @@
         <nav class="navbar navbar-expand-lg bg-black text-uppercase fixed-top" id="mainNav">
             <div class="container">
                 <center><button class="navbar-toggler text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
+                        Menu
+                        <i class="fas fa-bars"></i>
                     </button></center>
                 <div class="collapse navbar-collapse justify-content-md-center" id="navbarResponsive">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Nosotros</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Ltrabajo">Lineas de trabajo</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Proyectos</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contactanos</a></li>
                     </ul>
@@ -86,21 +87,83 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-auto text-lg-center"><p class="lead">Crear una alianza estratégica con nuestros clientes
-                            que permita crecimiento, desarrollo y posicionamiento 
-                            líder del mercado. Brindar soluciones integrales de 
-                            ingeniería, diseño, fabricación y montaje. Realizar 
-                            proyectos Metalmecánicos y eléctricos en el menor 
-                            tiempo, preservando nuestro medio ambiente para 
-                            nuestros trabajadores y clientes.
+                    <div class="col-auto text-lg-center"><p class="lead">Consolidarnos como empresa líder en el mercado, 
+                            capaz de otorgar soluciones rápidas y efectivas a un 
+                            costo competitivo para nuestros clientes.
                         </p></div>
                 </div>
+                <br><br><br><br><br><br>
                 <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-dark" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
+                <!-- Valores -->
+                <h2 class="page-section-heading text-center text-uppercase text-black">Valores</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="bi bi-award"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-auto text-lg-center"><p class="lead">Mantenemos el compromiso de una empresa que 
+                            opera con ética y lealtad. Los lineamientos de dicho
+                            código que sustentan un trabajo serio, transparente,
+                            y tiene el valor de una política corporativa.
+                        </p></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section class="page-section bg-warning portfolio" id="Ltrabajo">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Lineas de trabajo</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <h3 class="col text-center">Ingeniería & Construcción</h3>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/Casco_inge.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <h3 class="col text-center">Acabados & Mantenimiento</h3>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/Casco_inge.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <h3 class="col text-center">Pisos Industriales</h3>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="col text-center">Eléctricidad & Telecomunicaciones</h3>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -108,11 +171,9 @@
         <section class="page-section bg-warning portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Proyectos</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
@@ -173,6 +234,48 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- Ubicanos n-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">UbÍcanos</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="container align-content-center">
+                    <center><div class="row">
+                            <div class="col">
+                                <h2>Mapa</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.2453416971443!2d-76.99200368518626!3d-12.163692991389519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753d527f33cec408!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses-419!2spe!4v1652813179310!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="col-md-6">
+                                <br><br><br><br><br>
+                                <!-- Email address input-->
+                                <div class="">
+                                    <p for="email">JR. SOTO BERMEO 242 - URB. CERCADO</p>
+                                </div>
+                                <!-- Phone number input-->
+                                <div class="">
+                                    <p>Santiago de Surco - Lima</p>
+                                </div>
+                                <!-- Message input-->
+                                <div class="">
+                                    <p><i class="bi bi-telephone"> </i>+51 982713197 / +51 990227053</p>
+                                </div>
+                                <div class="">
+                                    <p><i class="bi bi-envelope"> </i>    proyectos@ygmperu.com<p>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
         </section>
         <!-- Contact Section-->
         <section class="page-section" id="contact">
@@ -479,6 +582,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        
+
     </body>
 </html>
