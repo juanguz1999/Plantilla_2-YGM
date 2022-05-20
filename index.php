@@ -16,7 +16,10 @@
         <!-- Iconos bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/Navbar.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -30,7 +33,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Nosotros</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Ltrabajo">Lineas de trabajo</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Proyectos</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#proyects">Proyectos</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contactanos</a></li>
                     </ul>
                 </div>
@@ -41,7 +44,7 @@
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 <br>
-                <img class="masthead-avatar mb-5" src="img/image.png" alt="" />
+                <img class="masthead-avatar mb-5" src="img/logo fondoo negro.jpg" alt="" />
                 <!-- Masthead Heading-->
                 <br><br><br><br><br><br><br>
                 <!-- Icon Divider-->
@@ -55,7 +58,7 @@
             </div>
         </header>
         <!-- About Section-->
-        <section class="page-section text-black mb-0" id="about">
+        <section class="page-section bg-white text-black mb-0" id="about">
             <div class="container">
                 <!-- Mision -->
                 <h2 class="page-section-heading text-center text-uppercase text-black">Mision</h2>
@@ -113,7 +116,7 @@
 
             </div>
         </section>
-        <!-- Portfolio Section-->
+        <!-- LT Section-->
         <section class="page-section bg-warning portfolio" id="Ltrabajo">
             <div class="container">
                 <!-- Portfolio Section Heading-->
@@ -122,42 +125,42 @@
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
+                <!--Lineas de trabajo Items-->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
+                    <!-- LT Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <h3 class="col text-center">Ingeniería & Construcción</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#IngeConstru">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/Casco_inge.jpg" alt=""/>
+                            <img class="img-fluid" src="img/arqui_1.jpg" alt=""/>
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
+                    <!-- LT Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <h3 class="col text-center">Acabados & Mantenimiento</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#acamant">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/Casco_inge.jpg" alt=""/>
+                            <img class="img-fluid" src="img/Drywall_1.jpg" alt=""/>
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
+                    <!-- LT Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <h3 class="col text-center">Pisos Industriales</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#piind">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img class="img-fluid" src="img/piso.jpg" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 4-->
+                    <!-- LT Item 4-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Eléctricidad & Telecomunicaciones</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -167,8 +170,8 @@
                 </div>
             </div>
         </section>
-        <!-- Portfolio Section-->
-        <section class="page-section bg-warning portfolio" id="portfolio">
+        <!-- proyectos Section-->
+        <section class="page-section bg-warning portfolio" id="proyects">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Proyectos</h2>
@@ -177,65 +180,233 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
+                <!-- Portfolio Item 1-->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="col text-center">Almacén de Residuos</h3>
+                        <h5 class="col text-center">Unidad Minera Veta Dorada</h5>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                </div>
+                <br>
+                <!-- Portfolio Item 2-->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="col text-center">Construcción Cancha de Minerales 7,000m2</h3>
+                        <h5 class="col text-center">Unidad Minera Veta Dorada</h5>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                </div>
+                <br>
+                <!-- Portfolio Item 3-->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="col text-center">Montaje, Armado y Mantenimiento de Tableros Eléctricos.</h3>
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
                         </div>
                     </div>
-                    <!-- Portfolio Item 4-->
+                </div>
+                <br>
+                <!-- Portfolio Item 4-->
+                <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <h3 class="col text-center">Fabricación y Montaje de Estructuras Metálicas</h3>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
                         </div>
                     </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                </div>
+                <br>
+                <!-- Portfolio Item 5-->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="col text-center">Construcción e Instalación de PTAR Unidad Minera Veta Dorada</h3>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                            <img class="img-fluid" src="img/electricista.png" alt=""/>
                         </div>
                     </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                </div>
+                <br>
+                <!-- Portfolio Item 6-->
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="col text-center">Saneamiento para Campamentos Unidad Minera Veta Dorada </h3>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <br>
+        </section>
+        <!-- Lineas de trabajo Modals-->
+        <!-- LT Modal 1-->
+        <div class="portfolio-modal modal fade" id="IngeConstru" tabindex="-1" aria-labelledby="IngeConstru" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ingenieria y construccion</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>- Consultoría y Planificación de Obras</p>
+                                    <p>- Ejecución de Obras Civiles</p>
+                                    <p>- Licencia de Edificaciones</p>
+                                    <p>- Estudios de Suelos</p>
+                                    <p>- Topografía</p>
+                                    <p>- Ensayos</p>
+                                    <p>- Proyecto de Edificaciones</p>
+                                    <p>- Instaciones Eléctricas</p>
+                                    <p>- Instalaciones Sanitarias.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <!--<i class="fas fa-xmark fa-fw"></i>-->
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Ubicanos n-->
+        </div>
+        <!-- LT Modal 2-->
+        <div class="portfolio-modal modal fade" id="acamant" tabindex="-1" aria-labelledby="acamant" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Acabados y mantenimiento</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>- Sistema Drywall</p>
+                                    <p>- Acabados de Pintura</p>
+                                    <p>- Revestimiento de Edificaciones</p>
+                                    <p>- Acabados de pisos y porcelanato</p>
+                                    <p>- Carpintería de Madera</p>
+                                    <p>- Instalaciones de Vidrio y Aluminio</p>
+                                    <p>- Estructuras Metálicas.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <!--<i class="fas fa-xmark fa-fw"></i>-->
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LT Modal 3-->
+        <div class="portfolio-modal modal fade" id="piind" tabindex="-1" aria-labelledby="piind" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pisos industriales</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>- Losas de Concreto</p>
+                                    <p>- Revestimiento para pisos</p>
+                                    <p>- Vitricación de Pisos</p>
+                                    <p>- Recubrimiento de Zócalos Sanitarios</p>
+                                    <p>- Mantenimiento de Pisos</p>
+                                    <p>- Reparación de Juntas de dilatación y Construcción.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <!--<i class="fas fa-xmark fa-fw"></i>-->
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- LT Modal 4-->
+        <div class="portfolio-modal modal fade" id="electte" tabindex="-1" aria-labelledby="electte" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Electricidad y telecomunicaciones</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <p>- Instalaciones de sistemas de puesta a tierra</p>
+                                    <p>- Cableado estructurado (Panduit CAT 6)</p>
+                                    <p>- Montaje y desmontaje de sistemas eléctricos.</p>
+                                    <p>-Implementación de sistemas de seguridad.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <!--<i class="fas fa-xmark fa-fw"></i>-->
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ubicanos-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
@@ -281,11 +452,11 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Envianos un correo</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Contact Section Form-->
@@ -353,37 +524,20 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
                     <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    <div class="col mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Redes Sociales</h4>
+                        <a class="btn btn-outline-light btn-xl mx-1" href="https://www.facebook.com/YGMconstruccionyacabadosSAC/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-xl mx-1" href="#!"><i class="bi bi-instagram" target="_blank" rel="noopener noreferrer"></i></a>
+                        <a class="btn btn-outline-light btn-xl mx-1" href="https://wa.me/+51982713197?text=¡Estoy+interesado!" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
                     </div>
                     <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+            <div class="container"><small>Copyright &copy; juanguz 2022</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
@@ -468,7 +622,32 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
