@@ -1,6 +1,19 @@
 <!-- About Section-->
 <section class="page-section bg-white text-black mb-0" id="about">
     <div class="container">
+        <!--Nosotros-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary text-black">Nosotros</h2>
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- carrousel nosotros - Image-->
+        <center>
+            <div class="page-section-heading justify-content-center">
+                <div class="col-md-10 mb-5">
+                <img class="img-fluid p-5" src="img/Nosotros_2.jpg" alt="">
+                </div>
+            </div>
+        </center>
         <!-- Mision -->
         <h2 class="page-section-heading text-center text-uppercase text-black">Mision</h2>
         <!-- Icon Divider-->
