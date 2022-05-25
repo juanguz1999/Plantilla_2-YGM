@@ -42,7 +42,7 @@
 <div class="portfolio-modal modal fade" id="acamant" tabindex="-1" aria-labelledby="acamant" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
-            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-header border-0"></div>
             <div class="modal-body text-center pb-5">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -79,7 +79,7 @@
 <div class="portfolio-modal modal fade" id="piind" tabindex="-1" aria-labelledby="piind" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
-            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-header border-0"></button></div>
             <div class="modal-body text-center pb-5">
                 <div class="container">
                     <div class="row justify-content-center">

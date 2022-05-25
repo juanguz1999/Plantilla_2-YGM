@@ -104,11 +104,11 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Almacén de Residuos</h3>
                         <h5 class="col text-center">Unidad Minera Veta Dorada</h5>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/capa_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -118,11 +118,11 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Construcción Cancha de Minerales 7,000m2</h3>
                         <h5 class="col text-center">Unidad Minera Veta Dorada</h5>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/Al_res_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Fabricación y Montaje de Estructuras Metálicas</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -157,7 +157,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Construcción e Instalación de PTAR Unidad Minera Veta Dorada</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -170,7 +170,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Saneamiento para Campamentos Unidad Minera Veta Dorada </h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -179,36 +179,70 @@
                     </div>
                 </div>
                 <br>
-                </section>
-                <?php include ('./includes/modales_proyectos.php'); ?>
-                <!-- Contact Section-->
-                <section class="footer text-white" id="contact" >
-                    <div class="container">
-                        <!-- Contact Section Heading-->
-                        <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Envianos un correo</h2>
-              
-                        <!-- Icon Divider-->
-                        <div class="divider-custom">
-                            <div class="bg-light divider-custom-line"></div>
-                        </div>
-                        <br><br>
-                        <!-- Contact Section Form-->
-                        <div class="row justify-content-center" style="color: #808080">
-                                <div class="col mb-5 mb-lg-0 justify-content-lg-center">
-                                    <center><a class="btn btn-outline-light btn-xl mx-1" href="https://www.facebook.com/YGMconstruccionyacabadosSAC/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-light btn-xl mx-1" href="#!"><i class="bi bi-instagram" target="_blank" rel="noopener noreferrer"></i></a>
-                                    <a class="btn btn-outline-light btn-xl mx-1" href="https://wa.me/+51982713197?text=¡Estoy+interesado!" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a></center>
-                                </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Footer-->
-                <?php include ('./includes/footer.php'); ?>
-                <!-- Bootstrap core JS-->
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+        </section>
+        <?php include ('./includes/modales_proyectos.php'); ?>
 
-                <!-- Core theme JS-->
-                <script src="js/scripts.js"></script>
-                <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-                </body>
-                </html>
+        <!-- Clientes Section-->
+        <section class="page-section bg-white text-black mb-0" id="clientes">
+            <div class="container">
+                <!-- Clietnes Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Clientes</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/Claro-Logo-2003.png" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/mtc.jpg" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/avinka.jpg" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/JOHESALOGO.jpg" alt=""/></center></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/veta_d.png" alt=""/></center></div><br>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/logoancky.png" alt=""/></center></div><br>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/imagina (1).jpg" height="150" width="210"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/ac_farma.png" alt=""/></center></div>
+                </div>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/Entel_logo_pe.png" height="65" width="250"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/Universidad_Privada_San_Juan_Bautista.png" height="150" width="170"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/New_Tech_M_Logo_High-res_viewimage.jpg" height="170" width="250"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/san_fernando.png" alt=""/></center></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section-->
+        <section class="footer text-white" id="contact" >
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Redes Sociales</h2>
+
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="bg-light divider-custom-line"></div>
+                </div>
+                <br><br>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center" style="color: #808080">
+                    <div class="col mb-5 mb-lg-0 justify-content-lg-center">
+                        <center><a class="btn btn-outline-light btn-xl mx-1" href="https://www.facebook.com/YGMconstruccionyacabadosSAC/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-xl mx-1" href="#!"><i class="bi bi-instagram" target="_blank" rel="noopener noreferrer"></i></a>
+                            <a class="btn btn-outline-light btn-xl mx-1" href="https://wa.me/+51982713197?text=¡Estoy+interesado!" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a></center>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <?php include ('./includes/footer.php'); ?>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
