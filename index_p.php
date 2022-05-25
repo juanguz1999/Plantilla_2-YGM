@@ -108,7 +108,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/capa_1.jpg" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/al_res_2.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/Al_res_1.jpg" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/can_mi.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/Elec_2.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/est_met_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/electricista.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/ptar_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/sane_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -193,23 +193,23 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/Claro-Logo-2003.png" alt=""/></center></div>
-                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/mtc.jpg" alt=""/></center></div>
-                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/avinka.jpg" alt=""/></center></div>
-                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/JOHESALOGO.jpg" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/Claro-Logo-2003.png" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/mtc.jpg" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/avinka.jpg" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/JOHESALOGO.jpg" alt=""/></center></div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/veta_d.png" alt=""/></center></div><br>
-                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/logoancky.png" alt=""/></center></div><br>
-                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/imagina (1).jpg" height="150" width="210"/></center></div>
-                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/ac_farma.png" alt=""/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/veta_d.png" alt=""/></center></div><br>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/logoancky.png" alt=""/></center></div><br>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/imagina (1).jpg" height="150" width="210"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/ac_farma.png" alt=""/></center></div>
                 </div>
                 <br>
                 <div class="row justify-content-center">
-                    <div class="col-md-3 p-4 mb-2"><center><img src="img/Entel_logo_pe.png" height="65" width="250"/></center></div>
-                    <div class="col-md-3 p-4 mb-2"><center><img src="img/Universidad_Privada_San_Juan_Bautista.png" height="150" width="170"/></center></div>
-                    <div class="col-md-3 p-4 mb-2"><center><img src="img/New_Tech_M_Logo_High-res_viewimage.jpg" height="170" width="250"/></center></div>
-                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/san_fernando.png" alt=""/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/clientes/Entel_logo_pe.png" height="65" width="250"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/clientes/Universidad_Privada_San_Juan_Bautista.png" height="150" width="170"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/clientes/New_Tech_M_Logo_High-res_viewimage.jpg" height="170" width="250"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/san_fernando.png" alt=""/></center></div>
                 </div>
             </div>
         </section>
@@ -219,8 +219,7 @@
         <section class="footer text-white" id="contact" >
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Redes Sociales</h2>
-
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contactanos</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="bg-light divider-custom-line"></div>
@@ -230,9 +229,17 @@
                 <div class="row justify-content-center" style="color: #808080">
                     <div class="col mb-5 mb-lg-0 justify-content-lg-center">
                         <center><a class="btn btn-outline-light btn-xl mx-1" href="https://www.facebook.com/YGMconstruccionyacabadosSAC/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-xl mx-1" href="#!"><i class="bi bi-instagram" target="_blank" rel="noopener noreferrer"></i></a>
+                            <a class="btn btn-outline-light btn-xl mx-1" href="https://instagram.com/ygm_construccionyacabados?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram" target="_blank" rel="noopener noreferrer"></i></a>
                             <a class="btn btn-outline-light btn-xl mx-1" href="https://wa.me/+51982713197?text=¡Estoy+interesado!" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a></center>
                     </div>
+                </div>
+                <br><br>
+                <div class="row justify-content-center">
+                    <center>
+                        <div class="col justify-content-lg-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.2453416971443!2d-76.99200368518626!3d-12.163692991389519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753d527f33cec408!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses-419!2spe!4v1653501139046!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </center>
                 </div>
             </div>
         </section>
