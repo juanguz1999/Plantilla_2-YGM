@@ -8,9 +8,11 @@
         </div>
         <!-- carrousel nosotros - Image-->
         <center>
-            <div class="page-section-heading justify-content-center">
-                <div class="col-md-10 mb-5">
-                <img class="img-fluid p-5" src="img/Nosotros_2.jpg" alt="">
+            <div class="page-section-heading">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 mb-5">
+                        <img class="img-fluid p-5 img-fluid rounded-0" src="img/Nosotros_2.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </center>

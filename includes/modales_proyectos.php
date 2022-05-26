@@ -18,19 +18,19 @@
                             <!-- Portfolio carrousel - Image-->
                             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousela">
                                 <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide-1a"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide-2a"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide-3a"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide-1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide-2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide-3"></button>
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal1/modal1.png" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal1/modal2.png" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal1/modal3.jpg" class="d-block w-100" alt=""/>
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -42,11 +42,10 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
+                            <br>
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-bs-dismiss="modal">
-                                <i class="fas fa-xmark fa-fw"></i>
-                                Close Window
+                                Cerrar
                             </button>
                         </div>
                     </div>
@@ -80,13 +79,13 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal2/modal1.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal2/modal2.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal2/modal3.png" alt=""/>
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
@@ -98,11 +97,10 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
+                            <br>
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-bs-dismiss="modal">
-                                <i class="fas fa-xmark fa-fw"></i>
-                                Close Window
+                                Cerrar
                             </button>
                         </div>
                     </div>
@@ -135,13 +133,13 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal3/modal1.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal3/modal2.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal3/modal3.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
@@ -153,11 +151,10 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
+                            <br>
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-bs-dismiss="modal">
-                                <i class="fas fa-xmark fa-fw"></i>
-                                Close Window
+                                Cerrar
                             </button>
                         </div>
                     </div>
@@ -190,13 +187,13 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal4/modal1.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal4/modal2.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal4/modal3.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
@@ -208,11 +205,10 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
+                            <br>
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-bs-dismiss="modal">
-                                <i class="fas fa-xmark fa-fw"></i>
-                                Close Window
+                                Cerrar
                             </button>
                         </div>
                     </div>
@@ -245,13 +241,13 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal5/modal1.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal5/modal2.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal5/modal3.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
@@ -263,11 +259,10 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
+                            <br>
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-bs-dismiss="modal">
-                                <i class="fas fa-xmark fa-fw"></i>
-                                Close Window
+                                Cerrar
                             </button>
                         </div>
                     </div>
@@ -300,13 +295,13 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal6/modal1.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal6/modal2.jpg" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
+                                        <img src="img/proyectos/modal6/modal3.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
@@ -318,11 +313,10 @@
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
+                            <br>
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-bs-dismiss="modal">
-                                <i class="fas fa-xmark fa-fw"></i>
-                                Close Window
+                                Cerrar
                             </button>
                         </div>
                     </div>

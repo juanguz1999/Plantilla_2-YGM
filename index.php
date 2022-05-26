@@ -5,120 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>YGM</title>
+        <title>Y.G.M.</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="img/logo con fondo blanco (1).jpg" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Iconos bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
         <link href="css/Navbar.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="css/RedesSociales.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-black text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <center><button class="navbar-toggler text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" data-target="#Navbar">
-                        Menu
-                        <i class="fas fa-bars"></i>
-                    </button></center>
-                <div class="collapse navbar-collapse justify-content-md-center" id="navbarResponsive">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Nosotros</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Ltrabajo">Lineas de trabajo</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#proyects">Proyectos</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contactanos</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php include ('./includes/navbar.php'); ?>
         <!-- Masthead-->
         <header class="masthead bg-black text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 <br>
-                <img class="masthead-avatar mb-5" src="img/logo fondoo negro.jpg" alt="" />
-                <!-- Masthead Heading-->
+                <img class="masthead-avatar mb-5" src="img/logo fondoo negro.jpg" alt="..." />
                 <br><br><br><br><br><br><br>
-                <!-- Icon Divider-->
-                <!--<div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>-->
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0"></p>
             </div>
         </header>
-        <!-- About Section-->
-        <section class="page-section bg-white text-black mb-0" id="about">
-            <div class="container">
-                <!-- Mision -->
-                <h2 class="page-section-heading text-center text-uppercase text-black">Mision</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><img class="" src="img/mision.png" height="40" width="40"/></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-auto text-lg-center"><p class="lead">Crear una alianza estratégica con nuestros clientes
-                            que permita crecimiento, desarrollo y posicionamiento 
-                            líder del mercado. Brindar soluciones integrales de 
-                            ingeniería, diseño, fabricación y montaje. Realizar 
-                            proyectos Metalmecánicos y eléctricos en el menor 
-                            tiempo, preservando nuestro medio ambiente para 
-                            nuestros trabajadores y clientes.
-                        </p></div>
-                </div>
-                <br><br><br><br><br><br>
-                <!-- Vision -->
-                <h2 class="page-section-heading text-center text-uppercase text-black">Vision</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="bi bi-eye"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-auto text-lg-center"><p class="lead">Consolidarnos como empresa líder en el mercado, 
-                            capaz de otorgar soluciones rápidas y efectivas a un 
-                            costo competitivo para nuestros clientes.
-                        </p></div>
-                </div>
-                <br><br><br><br><br><br>
-                <!-- About Section Button-->
-                <!-- Valores -->
-                <h2 class="page-section-heading text-center text-uppercase text-black">Valores</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="bi bi-award"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-auto text-lg-center"><p class="lead">Mantenemos el compromiso de una empresa que 
-                            opera con ética y lealtad. Los lineamientos de dicho
-                            código que sustentan un trabajo serio, transparente,
-                            y tiene el valor de una política corporativa.
-                        </p></div>
-                </div>
-
-            </div>
-        </section>
+        <!-- About Section -->
+        <?php include ('./includes/about.php'); ?>
         <!-- LT Section-->
-        <section class="page-section bg-warning portfolio" id="Ltrabajo">
+        <section class="page-section bg-info portfolio" id="Ltrabajo">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Lineas de trabajo</h2>
@@ -135,7 +52,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/arqui_1.jpg" alt=""/>
+                            <img class="img-fluid" src="img/hombre_casco.png" alt=""/>
                         </div>
                     </div>
                     <!-- LT Item 2-->
@@ -145,7 +62,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/Drywall_1.jpg" alt=""/>
+                            <img class="img-fluid" src="img/mantenimiento_2.png" alt=""/>
                         </div>
                     </div>
                     <!-- LT Item 3-->
@@ -155,7 +72,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/piso.jpg" alt="..." />
+                            <img class="img-fluid" src="img/quitar_fondo-removebg-preview.png" alt=""/>
                         </div>
                     </div>
                     <!-- LT Item 4-->
@@ -165,621 +82,174 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/electricista.png" alt=""/>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <?php include ('./includes/modales_LT.php'); ?>
         <!-- proyectos Section-->
         <section class="page-section bg-warning portfolio" id="proyects">
             <div class="container">
-                <!-- Portfolio Section Heading-->
+                <!-- Proyecto Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Proyectos</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
-                <!-- Portfolio Item 1-->
+                <!-- Proyecto Grid Items-->
+                <!-- Proyecto Item 1-->
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Almacén de Residuos</h3>
                         <h5 class="col text-center">Unidad Minera Veta Dorada</h5>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/al_res_2.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
                 <br>
-                <!-- Portfolio Item 2-->
+                <!-- Proyecto Item 2-->
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Construcción Cancha de Minerales 7,000m2</h3>
                         <h5 class="col text-center">Unidad Minera Veta Dorada</h5>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/can_mi.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
                 <br>
-                <!-- Portfolio Item 3-->
+                <!-- Proyecto Item 3-->
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Montaje, Armado y Mantenimiento de Tableros Eléctricos.</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/Elec_2.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
                 <br>
-                <!-- Portfolio Item 4-->
+                <!-- Proyecto Item 4-->
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Fabricación y Montaje de Estructuras Metálicas</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/est_met_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
                 <br>
-                <!-- Portfolio Item 5-->
+                <!-- Proyecto Item 5-->
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Construcción e Instalación de PTAR Unidad Minera Veta Dorada</h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/electricista.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/ptar_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
                 <br>
-                <!-- Portfolio Item 6-->
+                <!-- Proyecto Item 6-->
                 <div class="row justify-content-center">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <h3 class="col text-center">Saneamiento para Campamentos Unidad Minera Veta Dorada </h3>
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#electte">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#proyModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="img/telecomunicaciones.png" alt=""/>
+                            <img class="img-fluid" src="img/proyectos/sane_1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
                 <br>
-                </section>
-                <!-- Lineas de trabajo Modals-->
-                <!-- LT Modal 1-->
-                <div class="portfolio-modal modal fade" id="IngeConstru" tabindex="-1" aria-labelledby="IngeConstru" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ingenieria y construccion</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
-                                            <!-- Portfolio Modal - Text-->
-                                            <p>- Consultoría y Planificación de Obras</p>
-                                            <p>- Ejecución de Obras Civiles</p>
-                                            <p>- Licencia de Edificaciones</p>
-                                            <p>- Estudios de Suelos</p>
-                                            <p>- Topografía</p>
-                                            <p>- Ensayos</p>
-                                            <p>- Proyecto de Edificaciones</p>
-                                            <p>- Instaciones Eléctricas</p>
-                                            <p>- Instalaciones Sanitarias.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <!--<i class="fas fa-xmark fa-fw"></i>-->
-                                                Cerrar
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </section>
+        <?php include ('./includes/modales_proyectos.php'); ?>
+
+        <!-- Clientes Section-->
+        <section class="page-section bg-white text-black mb-0" id="clientes">
+            <div class="container">
+                <!-- Clietnes Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Clientes</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
                 </div>
-                <!-- LT Modal 2-->
-                <div class="portfolio-modal modal fade" id="acamant" tabindex="-1" aria-labelledby="acamant" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Acabados y mantenimiento</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
-                                            <!-- Portfolio Modal - Text-->
-                                            <p>- Sistema Drywall</p>
-                                            <p>- Acabados de Pintura</p>
-                                            <p>- Revestimiento de Edificaciones</p>
-                                            <p>- Acabados de pisos y porcelanato</p>
-                                            <p>- Carpintería de Madera</p>
-                                            <p>- Instalaciones de Vidrio y Aluminio</p>
-                                            <p>- Estructuras Metálicas.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <!--<i class="fas fa-xmark fa-fw"></i>-->
-                                                Cerrar
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/Claro-Logo-2003.png" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/mtc.jpg" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/avinka.jpg" alt=""/></center></div>
+                    <div class="col-md-3 mb-2"><center><img class="img-fluid" src="img/clientes/JOHESALOGO.jpg" alt=""/></center></div>
                 </div>
-                <!-- LT Modal 3-->
-                <div class="portfolio-modal modal fade" id="piind" tabindex="-1" aria-labelledby="piind" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pisos industriales</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
-                                            <!-- Portfolio Modal - Text-->
-                                            <p>- Losas de Concreto</p>
-                                            <p>- Revestimiento para pisos</p>
-                                            <p>- Vitricación de Pisos</p>
-                                            <p>- Recubrimiento de Zócalos Sanitarios</p>
-                                            <p>- Mantenimiento de Pisos</p>
-                                            <p>- Reparación de Juntas de dilatación y Construcción.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <!--<i class="fas fa-xmark fa-fw"></i>-->
-                                                Cerrar
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/veta_d.png" alt=""/></center></div><br>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/logoancky.png" alt=""/></center></div><br>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/imagina (1).jpg" height="150" width="210"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/ac_farma.png" alt=""/></center></div>
                 </div>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/clientes/Entel_logo_pe.png" height="65" width="250"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/clientes/Universidad_Privada_San_Juan_Bautista.png" height="150" width="170"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img src="img/clientes/New_Tech_M_Logo_High-res_viewimage.jpg" height="170" width="250"/></center></div>
+                    <div class="col-md-3 p-4 mb-2"><center><img class="img-fluid" src="img/clientes/san_fernando.png" alt=""/></center></div>
+                </div>
+            </div>
+        </section>
 
 
-                <!-- LT Modal 4-->
-                <div class="portfolio-modal modal fade" id="electte" tabindex="-1" aria-labelledby="electte" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Electricidad y telecomunicaciones</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <!--<img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />-->
-                                            <!-- Portfolio Modal - Text-->
-                                            <p>- Instalaciones de sistemas de puesta a tierra</p>
-                                            <p>- Cableado estructurado (Panduit CAT 6)</p>
-                                            <p>- Montaje y desmontaje de sistemas eléctricos.</p>
-                                            <p>-Implementación de sistemas de seguridad.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <!--<i class="fas fa-xmark fa-fw"></i>-->
-                                                Cerrar
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <!-- Contact Section-->
+        <section class="footer text-white" id="contact" >
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contactanos</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="bg-light divider-custom-line"></div>
+                </div>
+                <br><br>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center" style="color: #808080">
+                    <div class="col mb-5 mb-lg-0 justify-content-lg-center">
+                        <center><a class="btn btn-outline-light btn-xl mx-1" href="https://www.facebook.com/YGMconstruccionyacabadosSAC/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-xl mx-1" href="https://instagram.com/ygm_construccionyacabados?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram" target="_blank" rel="noopener noreferrer"></i></a>
+                            <a class="btn btn-outline-light btn-xl mx-1" href="https://wa.me/+51982713197?text=¡Estoy+interesado!" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a></center>
                     </div>
                 </div>
-                <!-- Ubicanos-->
-                <section class="page-section" id="contact">
-                    <div class="container">
-                        <!-- Contact Section Heading-->
-                        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">UbÍcanos</h2>
-                        <!-- Icon Divider-->
-                        <div class="divider-custom">
-                            <div class="divider-custom-line"></div>
-                            <div class="divider-custom-icon"><i class="bi bi-geo-alt-fill"></i></div>
-                            <div class="divider-custom-line"></div>
+                <br><br>
+                <div class="row justify-content-center">
+                    <center>
+                        <div class="col justify-content-lg-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.2453416971443!2d-76.99200368518626!3d-12.163692991389519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753d527f33cec408!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses-419!2spe!4v1653501139046!5m2!1ses-419!2spe" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <!-- Contact Section Form-->
-                        <div class="container align-content-center">
-                            <center><div class="row">
-                                    <div class="col">
-                                        <h2>Mapa</h2>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.2453416971443!2d-76.99200368518626!3d-12.163692991389519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753d527f33cec408!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses-419!2spe!4v1652813179310!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <br><br><br><br><br>
-                                        <!-- Email address input-->
-                                        <div class="">
-                                            <p for="email">JR. SOTO BERMEO 242 - URB. CERCADO</p>
-                                        </div>
-                                        <!-- Phone number input-->
-                                        <div class="">
-                                            <p>Santiago de Surco - Lima</p>
-                                        </div>
-                                        <!-- Message input-->
-                                        <div class="">
-                                            <p><i class="bi bi-telephone"> </i>+51 982713197 / +51 990227053</p>
-                                        </div>
-                                        <div class="">
-                                            <p><i class="bi bi-envelope"> </i>    proyectos@ygmperu.com<p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </center>
-                        </div>
-                    </div>
+                    </center>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <?php include ('./includes/footer.php'); ?>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-                </section>
-                <!-- Contact Section-->
-                <section class="page-section" id="contact">
-                    <div class="container">
-                        <!-- Contact Section Heading-->
-                        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Envianos un correo</h2>
-                        <!-- Icon Divider-->
-                        <div class="divider-custom">
-                            <div class="divider-custom-line"></div>
-                            <div class="divider-custom-icon"></div>
-                            <div class="divider-custom-line"></div>
-                        </div>
-                        <!-- Contact Section Form-->
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 col-xl-7">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <!-- Name input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Full name</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                    </div>
-                                    <!-- Email address input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Email address</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                    </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Phone number</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                    </div>
-                                    <!-- Message input-->
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Message</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                    </div>
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                            To activate this form, sign up at
-                                            <br />
-                                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                        </div>
-                                    </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- Submit Button-->
-                                    <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Footer-->
-                <footer class="footer text-center">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Footer Location-->
-                            <!-- Footer Social Icons-->
-                            <div class="col mb-5 mb-lg-0">
-                                <h4 class="text-uppercase mb-4">Redes Sociales</h4>
-                                <a class="btn btn-outline-light btn-xl mx-1" href="https://www.facebook.com/YGMconstruccionyacabadosSAC/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-xl mx-1" href="#!"><i class="bi bi-instagram" target="_blank" rel="noopener noreferrer"></i></a>
-                                <a class="btn btn-outline-light btn-xl mx-1" href="https://wa.me/+51982713197?text=¡Estoy+interesado!" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
-                            </div>
-                            <!-- Footer About Text-->
-                        </div>
-                    </div>
-                </footer>
-                <!-- Copyright Section-->
-                <div class="copyright py-4 text-center text-white">
-                    <div class="container"><small>Copyright &copy; juanguz 2022</small></div>
-                </div>
-                <!-- Portfolio Modals-->
-                <!-- Portfolio Modal 1-->
-                <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                            <!-- Portfolio Modal - Text-->
-                                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <i class="fas fa-xmark fa-fw"></i>
-                                                Close Window
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Modal 2-->
-                <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
-                                            <!-- Portfolio Modal - Text-->
-                                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <i class="fas fa-xmark fa-fw"></i>
-                                                Close Window
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Modal 3-->
-                <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                                <div class="carousel-indicators">
-                                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                                </div>
-                                                <div class="carousel-inner">
-                                                    <div class="carousel-item active">
-                                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <img src="assets/img/portfolio/circus.png" class="d-block w-100" alt="...">
-                                                    </div>
-                                                </div>
-                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Previous</span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Next</span>
-                                                </button>
-                                            </div>
-                                            <!-- Portfolio Modal - Text-->
-                                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <i class="fas fa-xmark fa-fw"></i>
-                                                Close Window
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Modal 4-->
-                <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                            <!-- Portfolio Modal - Text-->
-                                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <i class="fas fa-xmark fa-fw"></i>
-                                                Close Window
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Modal 5-->
-                <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                            <!-- Portfolio Modal - Text-->
-                                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <i class="fas fa-xmark fa-fw"></i>
-                                                Close Window
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Portfolio Modal 6-->
-                <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                            <div class="modal-body text-center pb-5">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-8">
-                                            <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                            <!-- Icon Divider-->
-                                            <div class="divider-custom">
-                                                <div class="divider-custom-line"></div>
-                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                                <div class="divider-custom-line"></div>
-                                            </div>
-                                            <!-- Portfolio Modal - Image-->
-                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                            <!-- Portfolio Modal - Text-->
-                                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                            <button class="btn btn-primary" data-bs-dismiss="modal">
-                                                <i class="fas fa-xmark fa-fw"></i>
-                                                Close Window
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <script>
-                    function alerta() {
-
-                        Swal.fire({
-                            position: 'center', //permite "top-end"
-                            type: 'success',
-                            title: 'Tú evaluacion ha sido enviada con exito.',
-                            showConfirmButton: false,
-                            timer: 30000 //el tiempo que dura el mensaje en ms
-                        });
-                    }
-                </script>
-
-
-                <!-- Bootstrap core JS-->
-                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-                <!-- Core theme JS-->
-                <script src="js/scripts.js"></script>
-
-                </body>
-                </html>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
