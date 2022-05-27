@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -236,8 +236,12 @@
                 <br><br>
                 <div class="row justify-content-center">
                     <center>
+                        <h4>Encuentranos en:</h4>
+                        <p>JR. SOTO BERMEO 242 - URB. CERCADO
+                            Santiago de Surco - Lima
+                        </p>
                         <div class="col justify-content-lg-center">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.2453416971443!2d-76.99200368518626!3d-12.163692991389519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753d527f33cec408!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses-419!2spe!4v1653501139046!5m2!1ses-419!2spe" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.2453416971443!2d-76.99200368518626!3d-12.163692991389519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x753d527f33cec408!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses-419!2spe!4v1653501139046!5m2!1ses-419!2spe" width="300" height="200" style="border:0;" ></iframe>
                         </div>
                     </center>
                 </div>
